@@ -1,5 +1,5 @@
 <?php
-include './database/connection.php';
+include './connection.php';
 
 $sql = "SELECT `Customer_ID`, `Firstname`, `Lastname`, `Cardnumber`, `Cvc`, `Expiration_Date` FROM `customer` ORDER BY Customer_ID DESC";
 $result = $con->query($sql);

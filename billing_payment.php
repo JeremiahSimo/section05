@@ -1,5 +1,5 @@
 <?php
-include './database/connection.php';
+include './connection.php';
 
 if(isset($_POST["btn_submit"])){
   $firstname=$_POST["txt_firstname"];
@@ -31,7 +31,7 @@ if(isset($_POST["btn_submit"])){
 
 <body>
 <main>
-                   <form method="POST" action="myindex.php?page=billing" class="row g-3 needs-validation" novalidate>
+                   <form method="POST" action="billing_payment.php" class="row g-3 needs-validation" novalidate>
 
                      
                      <h1 style="display: flex; align-items: center;">
